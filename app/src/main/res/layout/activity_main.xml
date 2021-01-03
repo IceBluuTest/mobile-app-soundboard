@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgboondocks"
+    tools:context="com.example.dev.soundboardv4.MainActivity">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="368dp"
+        android:layout_height="402dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound1"
+                android:text="I Like Ya and I Want Ya"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound2"
+                android:text="Easy Way or the Hard Way"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="42dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound3"
+                android:text="You Chose the Hard Way"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound4"
+                android:text="Read Nuggah"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound5"
+                android:text="Powerful Niggadry"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound6"
+                android:text="I am a Warrior"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound7"
+                android:text="Take Your Time"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound8"
+                android:text="Oh Yeah !!!"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound9"
+                android:text="Kick In your Chest"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound10"
+                android:text="Eat a Dick"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound11"
+                android:text="Xpress"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="mySound12"
+                android:text="All Aboard"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/Fab_Boondocks"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:padding="5dp"
+        app:backgroundTint="@android:color/transparent"
+        app:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.2"
+        app:rippleColor="@android:color/transparent"
+        app:srcCompat="@drawable/house" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
